@@ -113,6 +113,7 @@ body {
   flex-direction: column;
   align-items: center;
   width: 100%;
+
   height: 600px;
 
   margin-bottom: 69px;
@@ -277,13 +278,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-text-color);
 }
-
-.fgdfg {
+.gdfgf {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
-
-.fgdfg > div {
+.gdfgf > div {
+  margin-bottom: 94px;
   width: 270px;
 }
