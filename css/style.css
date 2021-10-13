@@ -132,6 +132,13 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+.text > div {
+  width: 270px;
+}
 .section-describe {
   font-weight: 700;
   font-size: 14px;
@@ -152,6 +159,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.about-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .about-section-text {
   font-weight: 700;
   font-size: 36px;
@@ -163,7 +175,7 @@ body {
 }
 .team-section {
   background-color: var(--button-list-color);
-  margin-top: 94px;
+
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -277,12 +289,4 @@ body {
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
-}
-.gdfgf {
-  display: flex;
-  justify-content: space-between;
-}
-.gdfgf > div {
-  margin-bottom: 94px;
-  width: 270px;
 }
