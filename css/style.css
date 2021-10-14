@@ -90,7 +90,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
-
+.header-link.active {
+  color: var(--hover-color);
+}
 .header-link:focus,
 .header-link:hover {
   font-weight: 500;
