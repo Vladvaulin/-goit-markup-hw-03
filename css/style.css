@@ -320,6 +320,9 @@ body {
   width: 1200px;
   margin: auto;
 }
+.main-list > li {
+  border: 1px solid #eeeeee;
+}
 .section-list {
   width: 1200px;
   margin: auto;
