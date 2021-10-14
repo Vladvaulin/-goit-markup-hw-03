@@ -22,35 +22,42 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <a lang="en" class="header-name link" href=""> WebStudio </a>
-      <nav>
-        <ul class="list">
+    <header class="header">
+      <div class="container">
+        <a class="company-name link" href="">
+          <span>Web</span><span>Studio</span>
+        </a>
+        <nav>
+          <ul class="header-links with-interval list">
+            <li>
+              <a class="header-link link" href="index.html">Студия</a>
+            </li>
+            <li>
+              <a class="header-link link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li>
+              <a class="header-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contact with-interval list">
           <li>
-            <a class="header-link link" href="index.html">Студия</a>
+            <a class="contacts link" href="info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="header-link link" href="/portfolio.html">Портфолио</a>
+            <a class="contacts link" href="tel:++380961111111"
+              >+38 096 111 11 11</a
+            >
           </li>
-          <li><a class="header-link link" href="">Контакты</a></li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="contacts link" href="info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contacts link" href="tel:++380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
-      <section>
-        <ul class="list">
+      <section class="section  ">
+        
+        <ul class="list btn-list">
           <li>
             <button class="button-list" type="button">Все</button>
           </li>
@@ -67,12 +74,11 @@
             <button class="button-list" type="button">Маркетинг</button>
           </li>
         </ul>
-      </section>
-      <section>
-        <ul class="list">
+
+        <ul class="main-list list">
           <li>
             <img
-              src="images/img (20) (1).jpg"
+              src="images/img (21) (1).jpg"
               alt="ноутбук"
               width="370"
               height="294"
@@ -164,25 +170,31 @@
             <p class="logo-name-discribe">Приложение</p>
           </li>
         </ul>
+        
       </section>
     </main>
     <footer class="footer">
-      <a lang="en" class="footer-name link" href=""> WebStudio </a>
-      <address class="address-name">
-        <ul class="list">
-          <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-          <li>
-            <a class="footer-contacts link" href="info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="footer-contacts link" href="tel:++380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a lang="en" class="company-name light link" href="">
+          <span>Web</span><span>Studio</span>
+        </a>
+        <address class="address-name">
+          <ul class="contact-info list">
+            <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+            <li>
+              <a class="footer-contacts link" href="info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="footer-contacts link" href="tel:++380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </footer>
     </footer>
   </body>
 </html>
