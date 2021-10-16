@@ -22,91 +22,102 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header class="header">
+   <header class="header">
       <div class="container">
         <a class="company-name link" href="">
           <span>Web</span><span>Studio</span>
         </a>
-        <nav>
-          <ul class="header-links with-interval list">
-            <li>
-              <a class="header-link link" href="index.html">Студия</a>
+        <nav class="nav">
+          <ul class="header-list">
+            <li class="header-link">
+              <a class="header-link-item " href="index.html">Студия</a>
             </li>
-            <li>
-              <a class="header-link active link" href="portfolio.html">Портфолио</a>
+            <li class="header-link">
+              <a class="header-link-item active" href="portfolio.html">Портфолио</a>
             </li>
-            <li>
-              <a class="header-link link" href="">Контакты</a>
+            <li class="header-link">
+              <a class="header-link-item" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="header-contact with-interval list">
-          <li>
-            <a class="contacts link" href="info@devstudio.com"
+        <ul class="header-contact">
+          <li class="contacts-list">
+            <a class="contacts-link" href="info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="contacts link" href="tel:++380961111111"
+          <li class="contacts-list">
+            <a class="contacts-link" href="tel:++380961111111"
               >+38 096 111 11 11</a
             >
           </li>
         </ul>
       </div>
     </header>
+
     <main>
       <section class="section  ">
+        <div class="container">
+          <h1></h1>
         
-        <ul class="list btn-list">
-          <li>
-            <button class="button-list" type="button">Все</button>
+        <ul class=" btn-list">
+          <li class="button-list">
+            <button class="button-item" type="button">Все</button>
           </li>
-          <li>
-            <button class="button-list" type="button">Веб-сайты</button>
+          <li class="button-list">
+            <button class="button-item" type="button">Веб-сайты</button>
           </li>
-          <li>
-            <button class="button-list" type="button">Приложения</button>
+          <li class="button-list">
+            <button class="button-item" type="button">Приложения</button>
           </li>
-          <li>
-            <button class="button-list" type="button">Дизайн</button>
+          <li class="button-list">
+            <button class="button-item" type="button">Дизайн</button>
           </li>
-          <li>
-            <button class="button-list" type="button">Маркетинг</button>
+          <li class="button-list">
+            <button class="button-item" type="button">Маркетинг</button>
           </li>
         </ul>
-
-        <ul class="main-list list">
-          <li>
+        
+        <ul class="main-list ">
+          
+          <li> 
             <img
               src="images/img (21) (1).jpg"
               alt="ноутбук"
               width="370"
               height="294"
             />
+            <div class="logo-text">
             <h3 class="logo-name">Технокряк</h3>
             <p class="logo-name-discribe">Веб-сайт</p>
+            </div>
           </li>
-          <li>
+          <li >
             <img
               src="images/img (12) (1).jpg"
               alt="баскетбол"
               width="370"
               height="294"
             />
-
+            <div class="logo-text">
             <h3 class="logo-name">Постер New Orlean vs Golden Star</h3>
             <p class="logo-name-discribe">Дизайн</p>
+            </div>
           </li>
-          <li>
+          <li >
             <img
               src="images/img (13) (1).jpg"
               alt="ресторан"
               width="370"
               height="294"
             />
+            <div class="logo-text"> 
             <h3 class="logo-name">Ресторан Seafood</h3>
             <p class="logo-name-discribe">Приложение</p>
+            </div>
           </li>
+          
+          
           <li>
             <img
               src="images/img (14) (1).jpg"
@@ -114,8 +125,10 @@
               width="370"
               height="294"
             />
+            <div class="logo-text">
             <h3 class="logo-name">Проект <span lang="en">Prime</span></h3>
             <p class="logo-name-discribe">Маркетинг</p>
+            </div>
           </li>
           <li>
             <img
@@ -124,8 +137,10 @@
               width="370"
               height="294"
             />
+            <div class="logo-text">
             <h3 class="logo-name">Проект Boxes</h3>
             <p class="logo-name-discribe">Приложение</p>
+            </div>
           </li>
           <li>
             <img
@@ -134,9 +149,11 @@
               width="370"
               height="294"
             />
+            <div class="logo-text">
             <h3 class="logo-name">Inspiration has no Borders</h3>
             <p class="logo-name-discribe">Веб-сайт</p>
-          </li>
+            </div>
+          </li>                 
           <li>
             <img
               src="images/img (17) (1).jpg"
@@ -144,10 +161,12 @@
               width="370"
               height="294"
             />
+            <div class="logo-text">
             <h3 class="logo-name">
               Издание <span lang="en">Limited Edition</span>
             </h3>
             <p class="logo-name-discribe">Дизайн</p>
+            </div>
           </li>
           <li>
             <img
@@ -156,8 +175,10 @@
               width="370"
               height="294"
             />
+            <div class="logo-text">
             <h3 class="logo-name">Проект LAB</h3>
             <p class="logo-name-discribe">Маркетинг</p>
+            </div>
           </li>
           <li>
             <img
@@ -166,11 +187,15 @@
               width="370"
               height="294"
             />
+            <div class="logo-text">
             <h3 class="logo-name" lang="en">Growing Business</h3>
             <p class="logo-name-discribe">Приложение</p>
+            </div>
           </li>
+          
         </ul>
         
+        </div>
       </section>
     </main>
     <footer class="footer">
@@ -179,15 +204,15 @@
           <span>Web</span><span>Studio</span>
         </a>
         <address class="address-name">
-          <ul class="contact-info list">
+          <ul class="contact-info ">
             <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
             <li>
-              <a class="footer-contacts link" href="info@devstudio.com"
+              <a class="footer-contacts " href="info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="footer-contacts link" href="tel:++380961111111"
+              <a class="footer-contacts " href="tel:++380961111111"
                 >+38 096 111 11 11</a
               >
             </li>
