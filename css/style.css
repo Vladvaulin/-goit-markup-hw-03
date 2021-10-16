@@ -341,7 +341,7 @@ a {
   grid-row: 30px;
   grid-template: 30px;
 } */
-.main-list > li {
+.list {
   border: 1px solid #eeeeee;
   width: 370px;
 }
