@@ -21,6 +21,9 @@ ul,
 p {
   margin: 0;
 }
+ul {
+  padding-inline-start: 0;
+}
 ul[class] {
   list-style: none;
 }
@@ -57,7 +60,6 @@ a {
   letter-spacing: 0.03em;
   color: var(--studio-name-color);
   margin-right: 93px;
-  margin-left: 40px;
 }
 .company-name > span:first-child {
   color: var(--hover-color);
@@ -345,7 +347,7 @@ a {
   border: 1px solid #eeeeee;
   width: 370px;
 }
-.container .main-list {
+.main-list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
